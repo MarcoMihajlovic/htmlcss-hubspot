@@ -42,7 +42,7 @@
 .navbar1_content a, .navbar1_content div {
   float: left;
   display: block;
-  color: #007a8c;
+  color: black;
   text-align: center;
   vertical-align: middle;
   padding: 14px 16px;
@@ -54,7 +54,7 @@
   display: block;
   margin-top: 6px;
   margin-left: 3%;
-  color: #007a8c;
+  color: black;
   text-align: center;
   vertical-align: middle;
   padding: 14px 16px;
@@ -62,7 +62,7 @@
 }
 
 .vl {
-  border-left: 1px solid #007a8c;
+  border-left: 1px solid black;
   height: 5px;
   margin-left: 5px;
 }
@@ -77,28 +77,34 @@
 }
 
 .navbar1 .orange {
-  background-color: #ffbcac;
+  background-color: #ef775a;
+  color: white;
+}
+
+.orange {
+  background-color: #ef775a;
   color: white;
 }
 
 .navbar1 .empty {
-  color: #ffbcac;
-  border: 1px solid #ffbcac;
+  color: #ef775a;
+  border: 1px solid #ef775a;
 }
 
 .navbar1_content a:hover {
+  color: #007a8c;
   text-decoration: underline;
 }
 
 .navbar1_content2 .empty:hover {
-  background-color: #ffbcac;
+  background-color: #ef775a;
   color: white;
 }
 
 .navbar1_content2 .orange:hover {
   background-color: white;
-  color: #ffbcac;
-  border: 1px solid #ffbcac;
+  color: #ef775a;
+  border: 1px solid #ef775a;
 }
 /* Fine navbar1 */
 
@@ -119,9 +125,10 @@
   display: block;
   margin-top: 15px;
   margin-left: 3%;
-  color: #007a8c;
+  color: black;
   text-align: right;
   vertical-align: middle;
+  line-height: 0;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -131,8 +138,64 @@
 }
 
 .navbar2_content2 a:hover {
+  color: #007a8c;
   text-decoration: underline;
 }
 
 /* Fine navbar2 */
+
+/* Inizio Banner */
+
+.pink {
+  background-image: url('../img/jumbotron.png');
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  height: 700px;
+  position: relative;
+}
+
+.col1_content1 {
+  width: 35%;
+}
+
+.mid {
+  padding: 15px;
+}
+
+.banner h1 {
+  margin-bottom: 30px;
+  font-size: 350%;
+}
+
+.banner p  {
+  margin-bottom: 30px;
+  font-size: 150%;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+#top {
+  margin-top: 30px;
+}
+
+.banner_text {
+  position: absolute;
+  top: 50px;
+  text-align: left;
+  left: 0;
+  padding-right: 20px;
+}
+
+.banner a:hover {
+  background-color: white;
+  color: #ef775a;
+  border: 1px solid #ef775a;
+}
+/* Fine Banner */
 /* Fine Header */
