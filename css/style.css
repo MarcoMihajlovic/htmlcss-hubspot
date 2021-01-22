@@ -22,8 +22,9 @@
 
 /* Header */
 
+/* Inizio navbar1 */
+
 .navbar1 {
-  top: 0;
   height: 60px;
   border-bottom: 1px solid #007a8c;
 }
@@ -32,6 +33,10 @@
   margin-top: 10px;
   padding-left: 0;
   padding-right: 0;
+}
+
+#padding {
+  padding-left: 0;
 }
 
 .navbar1_content a, .navbar1_content div {
@@ -47,7 +52,7 @@
 .navbar1_content2 a, .navbar1_content2 div {
   float: right;
   display: block;
-  margin-top: 5px;
+  margin-top: 6px;
   margin-left: 3%;
   color: #007a8c;
   text-align: center;
@@ -95,4 +100,39 @@
   color: #ffbcac;
   border: 1px solid #ffbcac;
 }
+/* Fine navbar1 */
+
+/* Inizio navbar2 */
+
+.navbar2 {
+  height: 60px;
+}
+
+.navbar2_logo {
+  float: left;
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+.navbar2_content2 a {
+  float: right;
+  display: block;
+  margin-top: 15px;
+  margin-left: 3%;
+  color: #007a8c;
+  text-align: right;
+  vertical-align: middle;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#padding2 {
+  padding-right: 0;
+}
+
+.navbar2_content2 a:hover {
+  text-decoration: underline;
+}
+
+/* Fine navbar2 */
 /* Fine Header */
