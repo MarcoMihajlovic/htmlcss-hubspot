@@ -80,4 +80,19 @@
   color: #ffbcac;
   border: 1px solid #ffbcac;
 }
+
+.navbar1_content a:hover {
+  text-decoration: underline;
+}
+
+.navbar1_content2 .empty:hover {
+  background-color: #ffbcac;
+  color: white;
+}
+
+.navbar1_content2 .orange:hover {
+  background-color: white;
+  color: #ffbcac;
+  border: 1px solid #ffbcac;
+}
 /* Fine Header */
