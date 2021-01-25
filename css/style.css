@@ -436,4 +436,48 @@ main {
   border: 1px solid white;
 }
 /* Fine Table */
+/* Inizio Info */
+.info {
+  background-color: white;
+}
+
+.first_col {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 50px
+}
+
+.second_col {
+  width: 100%;
+  padding: 20px;
+}
+
+.first_col h1 {
+  margin-bottom: 20px;
+  font-size: 320%;
+}
+
+.first_col p {
+  font-size: 80%;
+}
+
+.column_img {
+  float: right;
+  margin-top: 25px;
+}
+
+.mini_box_img {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.mini_box_img img {
+  height: 50px;
+  max-width: 110px;
+  object-fit: contain;
+}
+
+
+/* Fine Info */
 /* Fine Main */
