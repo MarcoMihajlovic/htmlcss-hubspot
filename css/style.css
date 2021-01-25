@@ -478,6 +478,43 @@ main {
   object-fit: contain;
 }
 
+.second_row_info {
+  margin-bottom: 60px;
+}
 
+.info_content {
+  width: 40%;
+}
+
+.info_text {
+  float: left;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.info_text h1 {
+  font-size: 250%;
+  margin-bottom: 60px;
+}
+
+.info_text a{
+  text-decoration: none;
+}
+
+.info_text a:hover {
+  background-color: white;
+  color: #ef775a;
+  border: 1px solid #ef775a;
+}
+
+.info_img {
+  float: left;
+  width: 50%;
+}
+
+.info_img img {
+  float: right;
+  width: 280px;
+}
 /* Fine Info */
 /* Fine Main */
