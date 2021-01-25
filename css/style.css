@@ -366,6 +366,18 @@ main {
   margin-bottom: 30px;
 }
 
+.main_banner a:hover {
+  background-color: white;
+  color: #ef775a;
+  border: 1px solid #ef775a;
+}
+
+.column_box a:hover {
+  background-color: white;
+  color: #ef775a;
+  border: 1px solid #ef775a;
+}
+
 /* Inizio Table */
 .table {
   background-color: #37b79a;
