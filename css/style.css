@@ -366,7 +366,62 @@ main {
   margin-bottom: 30px;
 }
 
+/* Inizio Table */
 .table {
-  background-color:
+  background-color: #37b79a;
+  color: white
 }
+
+.box {
+  width: 100%;
+  text-align: center;
+}
+
+.box h1 {
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  margin-bottom: 30px;
+}
+
+.column_text {
+  float: left;
+  width: 25%;
+}
+
+.mini_box {
+  padding: 30px;
+  height: 220px;
+  vertical-align: middle;
+}
+
+.border_right {
+  border-right: 1px solid white;
+}
+
+.border_bottom {
+  border-bottom: 1px solid white;
+}
+
+.border_top {
+  border-top: 1px solid white;
+}
+
+.border_middle {
+  border-right: 1px solid white;
+  border-left: 1px solid white
+}
+
+.border_left {
+  border-left: 1px solid white;
+}
+
+.column_text hr{
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+}
+/* Fine Table */
 /* Fine Main */
