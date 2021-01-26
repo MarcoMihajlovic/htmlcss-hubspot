@@ -258,6 +258,7 @@ main {
 .main_banner_box2 hr {
   width: 60%;
   margin-left: 30px;
+  vertical-align: middle;
   background-color: black;
   border: 1px solid black;
 }
