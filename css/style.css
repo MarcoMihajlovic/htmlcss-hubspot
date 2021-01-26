@@ -401,13 +401,19 @@ main {
 .column_text {
   float: left;
   width: 25%;
-  margin-bottom:40px; 
+  margin-bottom:40px;
 }
 
 .mini_box {
   padding: 30px;
   height: 220px;
   vertical-align: middle;
+}
+
+.mini_box_image img{
+  max-height: 40px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .border_right {
