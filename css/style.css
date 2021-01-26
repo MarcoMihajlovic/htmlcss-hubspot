@@ -31,7 +31,7 @@
   left: 10%;
   top: 0;
   background-color: white;
-  z-index: 9999
+  z-index: 9999;
 }
 
 #vl {
@@ -633,6 +633,6 @@ main {
 
 .legal_stuff a:hover {
   color: #007a8c;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 /* Fine Footer */
